@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+table {
+  table-layout: fixed;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  border-spacing: 1px;
+  border-collapse: separate;
+  text-align: center;
+}
+td {
+  overflow: hidden;
+  text-align: center;
+  font-size: 19px;
+  width: 28px;
+  height: 28px;
+  background-color: #ffe0bd;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
