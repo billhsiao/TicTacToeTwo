@@ -2,6 +2,10 @@
 const goButton = document.getElementById('go')
 const table = document.getElementById('table')
 const cell = function(id) {return document.getElementById(id)}
+const player = {
+  one: document.getElementById('host'),
+  two: document.getElementById('opponent')
+}
 // dom-object event listeners
 table.addEventListener('click', cellId)
 goButton.addEventListener('click', go)

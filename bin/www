@@ -30,6 +30,8 @@ server.on('listening', onListening);
 // })
 //socket setup
 connect.onConnect(io)
+// connect.roomConnect(io)
+// connect.connectLogic(io)
 //test2
 // function playerAssignment() {
 // io.on('connection', function(socket) {
